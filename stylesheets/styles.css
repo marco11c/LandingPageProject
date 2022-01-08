@@ -28,7 +28,7 @@ li{
 .section-one{
     display:flex;
     flex-direction: column;
-    background-image: url("/images/marslaunch.jpg");
+    background-image: url("images/marslaunch.jpg");
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
