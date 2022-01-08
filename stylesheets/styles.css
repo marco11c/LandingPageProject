@@ -16,7 +16,8 @@ li {
 
 .navlinks {
     text-decoration: none;
-    color: #e5e7eb
+    color: #e5e7eb;
+    text-shadow: 0px 0px 4px black;
 }
 .navlinks:hover{
     border-bottom: 2px #e5e7eb solid;
@@ -26,11 +27,10 @@ li {
 .section-one{
     display:flex;
     flex-direction: column;
-    background-image: url("/images/herospaceflight.jpeg");
+    background-image: url("/images/marslaunch.jpg");
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
-    /* height:300px; */
     background-color: #1f2937;
     color:white;
     text-shadow: 0px 0px 8px black;
@@ -44,14 +44,16 @@ li {
     gap:20px;
     padding: 0px;
     align-items: center;
-
 }
 
 .header-logo{
     margin-right: auto; 
-    font-family;
     font-size: 24px;
     color: #f9faf8;
+}
+.header-logo a{
+    text-decoration: none;
+    color: inherit;
 }
 .hero-header-text{
     font-size:48px;
@@ -128,7 +130,9 @@ li {
 }
 
 .itemimg{
-    height:150px;
+    width:180px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px black;
 }
 
 .item-text{
